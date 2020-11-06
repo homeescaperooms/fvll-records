@@ -1,0 +1,90 @@
+body {
+background-color: black;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    margin: 50px;
+    color: white;
+}
+
+a{
+     color: white;
+    font-size: 15pt;
+}
+
+.vita {
+    color: white;
+    margin-left: 50%;
+    
+}
+
+.vita table td{
+   height: 70px;
+}
+
+.kompositionen {
+    color: white;
+    margin-left: 50%;
+    
+}
+
+.kompositionen table td{
+   height: 50px;
+}
+
+.kompositionen a{
+    font-size: 12pt;
+}
+
+.kontakt {
+    color: white;
+   margin: 50px;
+    position: absolute; 
+    bottom: 0px; 
+    right: 2em;
+    
+}
+
+.impressum {
+    color: white;
+    width: 50%;
+   margin: 50px;
+    position: absolute; 
+    top: 0px; 
+    right: 2em;
+    
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+ text-decoration: none;
+}
+
+.menu {
+    margin: 50px;
+    position: absolute; 
+    bottom: 0px; 
+}
+
+svg {
+    width:30%;
+    margin-left:35%;
+}
+
+.logo_left {
+    position: absolute;
+    width:15%;
+    margin-left:5em;
+}
