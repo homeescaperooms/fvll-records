@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
       <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+      <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+</style>
   </head>
   <body>
     <h1>FVLL Records</h1>
@@ -273,6 +276,17 @@
               <p><a href="impressum.html">Impressum</a></p>
         
       </div>
+      <div class="popup" id="popup">
+
+    <h1>Lade Shazam, um deine Lieblingssongs zu erkennen</h1>
+          <img class="qr" src="img/header.png">
+          <p>Nutze die Kamera deines Handys, um die kostenlose Shazam-App zu scannen und herunterzuladen</p>
+          <p><a class="close" id="close">Schließen</a></p>
+          </div>
+     
+      <div>
+          <a id="shazam"><img src="img/67a837040d680ba6ae1a0a416cefb157.png" class="shazam"></a>
+      </div>
         <script>
       if(window.innerHeight > window.innerWidth){
         document.getElementById("kompositionen").style.setProperty('position', 'relative');
@@ -281,6 +295,13 @@
           document.getElementById("logo").style.setProperty('position', 'relative');
           document.getElementById("logo").style.setProperty('width', '50%');
       }
+        document.getElementById("shazam").onclick = function() {
+    document.getElementById("popup").style.visibility = "visible";
+}
+        
+        document.getElementById("close").onclick = function() {
+    document.getElementById("popup").style.visibility = "hidden";
+}
       </script>
     <script src="http://code.jquery.com/jquery.js"></script>
   </body>

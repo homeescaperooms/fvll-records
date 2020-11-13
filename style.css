@@ -88,3 +88,67 @@ svg {
     width:15%;
     margin-left:5em;
 }
+
+.shazam {
+    
+}
+
+.shazam{
+   position: fixed;
+    bottom:20px;
+    right:20px;
+    width: 5%;
+    -webkit-animation:bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+	0%       { bottom:25px; }
+	25%, 75% { bottom:35px; }
+	50%      { bottom:40px; }
+	100%     { bottom:20px; }
+}
+
+.popup {
+    background: white;
+    width: 50vw;
+    height: 30vw;
+    position: fixed;
+    top:20%;
+    left:50%;
+    transform: translate(-50%, 0);
+     border-radius: 25px;
+    visibility: hidden;
+}
+.popup h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 2vw;
+}
+
+.popup p {
+    color: black;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+}
+
+.popup img {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+    width: 20%;
+    z-index: -1;
+}
+
+.close {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    bottom:0;
+    text-decoration: underline;
+}
